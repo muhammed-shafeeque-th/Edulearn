@@ -120,10 +120,10 @@ api-gateway:
     TRACING_SAMPLING_RATE: "0.1"
     TRACING_SERVICE_NAME: gateway-service
 
-    AWS_S3_BUCKET_NAME: edulearn-public-resources
+    AWS_S3_BUCKET_NAME: edulearn-assets
     AWS_S3_REGION: ap-south-1
 
-    AWS_S3_SECURE_BUCKET_NAME: edulearn-private-contents
+    AWS_S3_SECURE_BUCKET_NAME: edulearn-private-media
     AWS_S3_SECURE_REGION: ap-south-1
 
   secretData: {}
@@ -1174,7 +1174,7 @@ configData:
   APP_ASSETS_URL: https://assets.muhammedshafeeque.online
   SITE_URL: https://edulearn.muhammedshafeeque.online
   APP_BASE_DOMAIN: .muhammedshafeeque.online
-  
+
   # CORS CONFIGURATION
   ALLOWED_ORIGINS: https://edulearn.muhammedshafeeque.online,http://localhost:9000
   ALLOWED_METHODS: GET,POST,PUT,DELETE,PATCH,OPTIONS
